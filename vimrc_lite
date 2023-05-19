@@ -1,0 +1,26 @@
+" 设置当文件被改动时自动载入
+set autoread
+"从不备份  
+set nobackup
+set ruler                   " 打开状态栏标尺
+set cursorline              " 突出显示当前行
+" 语法高亮
+set syntax=on
+" 自动缩进
+set autoindent
+" Tab键的宽度
+set tabstop=2
+" 用空格代替制表符
+set expandtab
+" 显示行号
+set number
+"禁止生成临时文件
+set nobackup
+set noswapfile
+"搜索忽略大小写
+set ignorecase
+"搜索逐字符高亮
+set hlsearch
+set incsearch
+" 高亮显示匹配的括号
+set showmatch
